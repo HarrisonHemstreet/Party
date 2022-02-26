@@ -1,17 +1,25 @@
-.navbar li {
-  list-style-type: square;
-}
-.navbar {
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: red;
+@import '../../globalVariables';
 
-    li {
+.navbar {
+    ul {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: red;
+        background-color: $background-color-primary;
+        margin-top: 0px;
+
+        .logo {
+            justify-content: flex-start;
+            margin-right: 600px;
+        }
+
+        li {
+            justify-content: flex-end;
+            align-items: center;
+            list-style-type: none;
+            padding-top: 18px;
+            margin-top: 0px;
+            margin: 0 10px;
+            background-color: $color-primary;
+            border-radius: 100px;
+        }
     }
 }

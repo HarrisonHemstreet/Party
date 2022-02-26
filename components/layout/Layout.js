@@ -8,9 +8,9 @@ const Layout = (props) => {
     return (
         <>
             <Head>
-                <title>Party.com</title>
+                <title>PRTY PWR</title>
                 <meta name="eCommerce website for buying party supplies" content="eCommerce website for buying party supplies" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/balloon.png" />
             </Head>
             <Navbar />
             <main>{props.children}</main>
