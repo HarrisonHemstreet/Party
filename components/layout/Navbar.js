@@ -7,13 +7,18 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <ul>
                 <li className={styles.logo}>
-                    <Image src="/balloon.png" alt='balloon logo' width={40} height={40}/>
+                    <Link href="/">
+                        <Image src="/balloon.png" alt='balloon logo' width={40} height={40}/>
+                    </Link>
                 </li>
-                <li><Link href="/">Party Home</Link></li>
                 <li><Link href="/Shop">Shop</Link></li>
                 <li><Link href="/Blog">Blog</Link></li>
                 <li><Link href="/About">About</Link></li>
-                <li><Link href="/ShoppingCart">Shopping Cart</Link></li>
+                <li>
+                    <Link href="/ShoppingCart">
+                        <Image src="/shopping-cart.svg" alt='shopping cart' width={20} height={20} />
+                    </Link>
+                </li>
             </ul>
         </nav>
     )

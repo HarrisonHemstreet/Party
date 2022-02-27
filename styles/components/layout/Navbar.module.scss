@@ -1,9 +1,9 @@
 @import '../../globalVariables';
 
 .navbar {
+    position: relative;
     ul {
         display: flex;
-        background-color: $background-color-primary;
         margin-top: 0px;
 
         .logo {
@@ -18,8 +18,10 @@
             padding-top: 18px;
             margin-top: 0px;
             margin: 0 10px;
-            background-color: $color-primary;
             border-radius: 100px;
+        }
+        li:hover {
+            text-decoration: underline;
         }
     }
 }
