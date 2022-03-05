@@ -8,7 +8,7 @@ const Home = () => {
         <div className={styles.container}>
             <div></div>
             <img src='/balloons-background.jpg'/>
-            <span className='firstspan'>Let's get it <br /> started!</span>
+            {/* <span className='firstspan'>Let's get it <br /> started!</span> */}
             <p><strong>PRTY PWR has the highest quality materials and <br/>
             services to bring your party to the next level.</strong></p>
         </div>
